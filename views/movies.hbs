@@ -1,0 +1,13 @@
+<section class="moviesPage">
+  <a href="/">Go back</a>
+   <h1>IronHack Cinema</h1>
+   <p>Click on the movie to check the showtimes!</p>
+  <div class="moviesList">
+    {{#each movies}}
+      <div class="moviesContainer">
+      {{>  movieCard this}}
+      </div>
+    {{/each}}
+  </div>
+</section>
+
